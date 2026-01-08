@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Ilham</title>
+
+  <!-- WAJIB buat mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <h1>PORTOFOLIO</h1>
+  </div>
+
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#kegiatan">Kegiatan</a>
+    <a href="#sertifikat">Sertifikat</a>
+    <a href="#keahlian">Keahlian</a>
+  </nav>
+
+  <button id="darkToggle" class="dark-toggle">🌙</button>
+
+</header>
+
+
+<section id="tentang" class="reveal">
+  <h2>Tentang Saya</h2>
+  <div class="tentang-box">
+    <div class="foto-profil">
+      <span><img src="foto-profil/profil.jpg" alt="">profil</span>
+    </div>
+    <div class="tentang-text">
+      <h3>Halo, Saya Ilham Febrian</h3>
+      <p>
+        Saya adalah siswa SMK PLUS PELITA NUSANTARA kelas XI TKJ 1, saya memiliki minat di bidang IT khususnya di jaringan dan Perangkat keras. 
+        Dan saya sangat berantusias untuk belajar lebih dalam di bidang IT dan juga saya akan terus mengembangkan kemampuan saya dibidang ini.
+    </p>
+      <!-- DOWNLOAD CV -->
+      <a href="CV.pdf" download class="btn-cv">
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Kegiatan -->
+<section id="kegiatan" class="reveal">
+  <h2>Kegiatan</h2>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="foto-box">
+        <img src="foto-kegiatan/kegiatan-1.jpeg">
+      </div>
+      <p class="deskripsi">
+        Konfigurasi untuk Pembuatan VLAN
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="foto-box">
+        <img src="foto-kegiatan/kegiatan-2.jpeg">
+      </div>
+      <p class="deskripsi">
+        Praktik Soldering dan Desoldering 
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="foto-box">
+        <img src="foto-kegiatan/kegiatan-3.jpeg">
+      </div>
+      <p class="deskripsi">
+        Splicing Kabel Fiber Optik
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section id="sertifikat" class="reveal">
+  <h2>Sertifikat</h2>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="foto-box">
+        <img src="sertifikat/WhatsApp Image 2026-01-08 at 13.18.28.jpeg">
+      </div>
+      <p class="deskripsi">Cisco Networking Basics</p>
+    </div>
+
+    <div class="card">
+      <div class="foto-box">
+        <img src="sertifikat/WhatsApp Image 2026-01-08 at 13.18.40.jpeg">
+      </div>
+      <p class="deskripsi">Basic Cyber Security</p>
+    </div>
+
+    <div class="card">
+      <div class="foto-box">
+        <img src="sertifikat/WhatsApp Image 2026-01-08 at 13.18.53.jpeg">
+      </div>
+      <p class="deskripsi">Sistem operasi Linux</p>
+    </div>
+
+    <div class="card">
+      <div class="foto-box">
+        <img src="sertifikat/WhatsApp Image 2026-01-08 at 13.19.12.jpeg">
+      </div>
+      <p class="deskripsi">Basic Jaringan Komputer</p>
+    </div>
+
+    <div class="card">
+      <div class="foto-box">
+        <img src="sertifikat/WhatsApp Image 2026-01-08 at 13.19.43.jpeg">
+      </div>
+      <p class="deskripsi">Basic Konfigurasi Mikrotik</p>
+    </div>
+</section>
+
+<!-- Keahlian -->
+<section id="keahlian" class="reveal">
+  <h2>Keahlian Saya</h2>
+  <div class="skill" data-percent="90">
+  <svg>
+    <circle cx="60" cy="60" r="50"></circle>
+    <circle cx="60" cy="60" r="50"></circle>
+  </svg>
+
+  <div class="percent">90%</div>
+  <span>Jaringan</span>
+</div>
+
+
+    <div class="skill" data-percent="85">
+  <svg>
+    <circle cx="60" cy="60" r="50"></circle>
+    <circle cx="60" cy="60" r="50"></circle>
+  </svg>
+
+  <div class="percent">85%</div>
+  <span>Elektro</span>
+</div>
+
+    <div class="skill" data-percent="80">
+  <svg>
+    <circle cx="60" cy="60" r="50"></circle>
+    <circle cx="60" cy="60" r="50"></circle>
+  </svg>
+
+  <div class="percent">80%</div>
+  <span>Fiber Optik</span>
+</div>
+
+
+    <div class="skill" data-percent="88">
+  <svg>
+    <circle cx="60" cy="60" r="50"></circle>
+    <circle cx="60" cy="60" r="50"></circle>
+  </svg>
+
+  <div class="percent">88%</div>
+  <span>Keamanan Jaringan</span>
+</div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Portofolio PKL</p>
+</footer>
+
+<script src="script.js"></script>
+
+<!-- MODAL FULLSCREEN FOTO -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+</body>
+</html>
